@@ -1,0 +1,65 @@
+Michael Brown
+
+Contact Information:
+Email: michaelbrown@example.com
+Phone: (456) 789-0123
+Location: Austin, TX, USA
+
+Summary:
+Skilled AI/ML Engineer with hands-on experience in designing and implementing machine learning solutions. Proficient in Python, TensorFlow, and scikit-learn. Experienced in data analysis, cloud deployment, and big data technologies. Strong ability to solve complex problems and deliver impactful AI solutions.
+
+Professional Experience:
+
+AI Engineer | Data Solutions Group
+Austin, TX
+Jun 2019 - Present
+- Developed and optimized machine learning models using TensorFlow and scikit-learn.
+- Conducted data analysis and preprocessing to improve model efficiency and accuracy.
+- Deployed models on AWS, ensuring high availability and scalability.
+- Worked with big data technologies like Hadoop for large-scale data processing.
+
+Machine Learning Engineer | NextGen Technologies
+Dallas, TX
+Sep 2016 - May 2019
+- Implemented supervised and unsupervised learning algorithms for various projects.
+- Built and maintained data pipelines for real-time data processing.
+- Collaborated with teams to integrate AI models into existing systems and applications.
+
+Education:
+
+Master’s in Machine Learning
+University of Texas at Austin
+Graduated: May 2016
+
+Bachelor’s in Mathematics
+University of Texas at Austin
+Graduated: May 2014
+
+Skills:
+- Machine Learning
+- Python Programming
+- TensorFlow
+- scikit-learn
+- Data Preprocessing
+- Model Evaluation
+- Cloud Platforms (AWS)
+- Big Data Technologies (Hadoop)
+- Data Analysis
+- Supervised Learning
+- Unsupervised Learning
+
+Projects:
+
+Real-Time Fraud Detection
+- Developed a real-time fraud detection system using TensorFlow.
+- Deployed on AWS, achieving high performance and accuracy in detecting fraudulent activities.
+
+Predictive Analytics Platform
+- Built a predictive analytics platform using scikit-learn for forecasting business trends.
+- Enhanced decision-making capabilities through advanced data analysis.
+
+Certifications:
+- Certified TensorFlow Expert
+- AWS Certified Solutions Architect
+
+

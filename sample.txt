@@ -1,0 +1,186 @@
+res1
+First Last
+Automation Tester
+Automation Tester with 10+ years of experience managing automation projects & software
+testing throughout the testing phase. Proven expertise in ensuring software performance &
+reliability by conducting quality assurance & automated testing, including implementation
+of test plans, bug tracking, & software test case development & execution.
+WORK EXPERIENCE
+______________________________________________________________________
+Automation Engineer November 2015 – Present
+Resume Worded, New York, NY
+● Facilitated scalability, process definition, reusability, and maintenance
+by developing & implementing a Selenium Test Automation
+Framework leading to an overall 17% reduction in costs.
+● Implemented a fully functioning framework that ran over 4500
+regression tests that identified 12 major defects within large data
+volumes at an early point.
+● Administered innovative design inputs and comprehensive quality
+testing extending from prerelease to maintenance for a product with
+90K users allowing for a 100% satisfaction in users’ experience.
+● Led a team of 8+ members that restructured & rewrote regression
+test cases, surpassing goals with a 15% reduction in the total
+regression test case count.
+Automation Tester June 2013 – October 2015
+Growthsi, San Francisco, CA
+● Utilized the Selenium/WebDriver framework with Java to create
+1200+ regression tests along with integration & functional testing
+uncovering deeply nested bugs increasing efficiency by 40%.
+● Reduced the regression cycle by 60% leading to faster
+implementations with better quality applications by implementing test
+automation using the QTP tool.
+● Organized and automated test cases which resulted in an 80%
+reduction in the total amount of time spent to execute full regression
+tests.
+● Increased the coverage of unit-test codes on an existing project by
+33%.
+Junior Automation Tester August 2010 – January 2013
+Resume Worded’s Exciting Company, New York, NY
+● Assisted the Scrum Master with the 12% increase in velocity.
+● Spearheaded the conversion of more than 1000 manual test-cases
+into an automated test which resulted in a 65% reduction in manual
+effort.
+● Constructed an automation sanity test to run prior to every
+deployment to shorten the testing time by 55%.
+● Constructed data-driven tests and enabled prioritization & control
+sequence of execution by launching a fully adaptable testing
+framework using TestNG which optimized the workflow by 20%.
+
+CONTACT
+______________________________
+• Denver, OH (Open to Remote)
+• +1-234-456-789
+• email@resumeworded.com
+• linkedin.com/in/username
+• github.com/resumeworded
+
+SKILLS
+______________________________
+• Amplitude Regression, Functional
+& Performance Testing
+Automation & Test tools:
+• Selenium/Webdriver
+• TestNG
+• Jenkins
+• CharlesProxy
+Product Management:
+• Agile
+• Scrum
+• JIRA
+• Microsoft TFS
+Languages:
+• Python
+• Java
+• Javascript
+• Don’t forget to use Resume
+Worded to scan your resume
+before you send it off (it’s free and
+proven to get you more jobs)
+
+EDUCATION
+______________________________
+Resume Worded University
+Bachelor of Engineering
+Major in Computer Science
+Minors in Mathematics and Statistics
+Boston, MA — May 2018
+Awards: Resume Worded Teaching
+Fellow (only 5 awarded to class), Dean’s
+List 2012 (Top 10%)
+
+
+
+
+
+res2:
+FIRST LAST
+
+New York, NY | P: +44 123456789 | first.last@resumeworded.com
+
+EDUCATION
+RESUME WORDED UNIVERSITY Boston, MA
+Bachelor of Engineering Expected May 2022
+Major in Computer Science; Minors in Mathematics and Psychology
+Cumulative GPA: 3.93/4.0; Dean’s List 2015-2016
+Relevant Coursework: Data Analysis, Software Engineering; Operating Systems; Algorithms; Artificial Intelligence
+RESUME WORDED BUSINESS SCHOOL New York, NY
+Study Abroad Program in International Business and Globalization Jul 2018 - Jul 2019
+WORK EXPERIENCE
+RESUME WORDED & CO. (8 employee venture-backed recruitment startup) New York, NY
+Test EngineerMay 2021 – Oct 2021
+● Factored internal processes while researching a unique set of test cases that addressed SEO, content management,
+localization, & content strategies which resulted in $50K worth of savings in 6 months.
+● Implemented the Selenium framework to create 2000+ regression tests that detected 8 minor & 3 major issues.
+● Created unique test scripts, test plans, & processes that reduced redundancy by 45% while ensuring predictable outcomes.
+● Formulated an automated test that replaced 1500+ manual test-cases leading to a 65% reduction in manual effort.
+GROWTHSI New York, NY
+Test Engineer Intern Jun 2020 – Sep 2020
+● Implemented automations that saved 25% off time & testing costs.
+● Assisted the Scrum Master in the 15% increase velocity.
+● Enhanced an existing project’s efficiency by increasing unit-test code coverage by 22%
+VOLUNTEERING & UNIVERSITY PROJECTS
+COMMUNITY PROJECT Feb 2020
+● Organized and conducted monthly meetings with city council executives and other community leaders to raise funds for the
+city recycling initiative
+● Generated 50+ donors through cold-call sales and systematic email outreach; qualified leads based on industry and location
+BUSINESS MANAGEMENT PROJECT Jan 2020
+● Conducted survey and quantitative analysis to understand customer sentiment and purchasing trends; presented
+recommendations to Senior Consultant at Resume Worded & Co.
+ACTIVITIES
+RESUME WORDED FINANCE SOCIETY Boston, MA
+Head of Events Sep 2020 – Present
+● Founded the first-ever Business Series to organize finance training for 500 students
+● Organized and advertised 10+ quarterly networking events with 300+ participants in 3 universities in Boston
+RWU TENNIS SOCIETY Boston, MA
+Committee Member Jan 2020 - Present
+● Managed the launch of a new booking system to improve the organization of events; a system now used across the university
+ADDITIONAL
+Technical Skills: Software Development Life Cycle (SDLC), Selenium, SQL; Proficient in MATLAB, Python, Java
+Languages: Fluent in French, English; Conversational Proficiency in Italian, German
+Certifications & Training: Online Course in Project Management (Coursera), Passed Resume Worded examinations
+
+
+res3:
+First Last
+Test Analyst
+Bay Area, California • +1-234-456-789 • professionalemail@resumeworded.com • linkedin.com/in/username
+Test Analyst with 10+ years of experience managing product tests & automation throughout the testing cycle.
+Proven expertise in ensuring the performance & reliability of released products by implementing a myriad of quality
+assurance techniques such as automated testing, software test case development & execution, test plan
+implementation, bug tracking, etc.
+RELEVANT WORK EXPERIENCE
+_______________________________________________________________________________________________________________
+Resume Worded, New York, NY 2015 – Present
+Senior Test Analyst (2017 – Present)
+● Formalized a strategy of connecting different databases using database links that had a 33% reduction
+impact on test execution time.
+● Ran 3500+ regression tests on the Selenium framework which resulted in avoiding major release issues by
+identifying 9 major defects early on.
+● Developed a Selenium function library that led to a 20% decrease in redundant scripting.
+● Devised a methodology using MS access for file data comparison as well as decreasing the production
+cost by 35%.
+QA Tester (2015 – 2017)
+● Planned and implemented automated testing scripts using Selenium, reducing labor hours by 18%.
+● Spearheaded the standardization of Test Scripts, Test Plan, & Daily Status Reports documents optimizing
+the processes and increasing productivity by 20%.
+Growthsi, San Francisco, CA 2013 – 2015
+Test Analyst
+● Implemented predictive analytics and regression analysis techniques for quantifying durability which led to
+a 12% increase in the product’s overall durability.
+● Created effective UAT plans & scripts meeting the acceptance criteria that resulted in a 10% saving in
+testing time.
+● Developed data comparison-specific MS Excel macros and reduced the test execution time by 45%.
+Resume Worded Exciting Company, San Francisco, CA 2011 – 2013
+Junior Test Analyst
+● Collaborated in the automation of the test-case design along with team members that saved an overall of
+55% of test design time.
+● Carried out an automation sanity test that preceded every deployment dropping the testing time by 40%.
+● Performed multiple physical testing methods simultaneously which increased efficiency by 15%.
+EDUCATION
+_______________________________________________________________________________________________________________
+Resume Worded University, New York, NY
+Bachelor of Engineering — Systems Design
+SKILLS
+_______________________________________________________________________________________________________________
+Technical Skills: Jira, Scrum, Test Automation Frameworks, Regression Testing, Selenium, Java
+Languages: English (Native), German (Fluent), French (Conversational)
