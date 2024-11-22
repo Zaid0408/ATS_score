@@ -2,7 +2,7 @@ Jane Smith
 
 Contact Information:
 Email: janesmith@example.com
-Phone: (234) 567-8901
+Phone: 234-567-8901
 Location: New York, NY, USA
 
 Summary:

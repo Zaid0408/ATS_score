@@ -2,7 +2,7 @@ Michael Brown
 
 Contact Information:
 Email: michaelbrown@example.com
-Phone: (456) 789-0123
+Phone: 4567890123
 Location: Austin, TX, USA
 
 Summary:

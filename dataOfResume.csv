@@ -1,0 +1,13 @@
+sl no,Name,emails,contact no's,LinkedIn,Education,KNN Score,Cosine Similarity
+1,John Doe,johndoe@example.comPhone,3-456-7890,,,50.28293238,50.28
+2,Jane Smith,janesmith@example.com,) 567-8901,,,36.80338747,36.8
+3,Emily Johnson,emilyjohnson@example.com,) 678-9012,,,35.16594272,35.17
+4,Michael Brown,michaelbrown@example.com,4567890123,,,29.19350714,29.19
+5,Zaid Hasan,zaidhasan@resumeworded.com,,,"Master of Science in Machine Learning and Artificial Intelligence Final project involved developing a real, Bachelor of Science in Data Science Part",20.06594144,20.07
+6,Junaid Machine,yourname@resumeworded.com,9087654321,,Master of Science,21.91844846,21.92
+7,Priya Sharma,"priyasharma@example.com, rajeshpatel@example.com","5-555-0101, 5-555-0202",,,48.3618157,48.36
+8,Priya Sharma,"priyasharma@example.com, rajeshpatel@example.com","4155550101, 5-555-0202",,,48.58425844,48.58
+9,Your Name,yourname@resumeworded.com,,,"Master of Science in Machine Learning Thesis on, Bachelor of Science in Computer Science Minors in Statistics and Cognitive Science Graduated with Cum Laude honors SKILLS Machine Learning",16.27561163,16.28
+10,Meera Iyer,meeraiyer@example.com,5-555-0505,,,47.86690615,47.87
+11,Zaid Hasan,zaid.has07@gmail.com,9004496896,,Bachelor of Engineering,34.34789453,34.35
+12,Anjali Verma,anjaliverma@example.com,5-555-0303,,,45.40192535,45.4

@@ -4,8 +4,9 @@ import re
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import pandas as pd
 
-text = """
+text = """ Zaid Hasan 
 zaid.has07@gmail.com | +91 9004496896 | LinkedIn | Github | Bengaluru,Karnataka | www.github.com/zaidhasan | https://www.linkedin.com/in/zaid-hasan/ mbn.com/zaidhasan | http://zaidhasan.github.io/ linkedin.com/zaidhasan
 https://www.linkedin.com/
 
@@ -25,61 +26,8 @@ You can also reach me at 12345-67890 or +1234567890123. my altremail is zaidhasa
 
 """
 
-text2="""FIRST LAST
-
-Bay Area, California • +1-234-456-789 • professionalemail@resumeworded.com • linkedin.com/in/username
-
-PROFESSIONAL EXPERIENCE
-Resume Worded, New York, NY Jun 2018 – Present
-QA Manual Tester
-● Enabled critical test case complexity metrics with support for Rapid adoption of functional automation using
-a scriptless test case adaptor by standardizing a Test Case construction method that was built
-Automation-ready & supported a test automation framework leading to a  increase in reusability with
-reductions in TCO approaching 25%.
-● Optimized scripting, modularity, & maintenance which resulted in an 1 decrease in workflow friction.
-● Increased the company's ability to take and complete projects without increasing manpower  by
-reducing QA testing turnaround time by 30%.
-Growthsi, New York, NY Jan 2015 - May 2018
-QA Manual Tester
-● Restructured utilities & improved the process documentation leading to a  reduction in client support
-tickets & an  increase in uptime.
-● Achieved department-wide improvement metrics based on QA scorecard through the 46% & 22% workload
-reduction of the customer support & IT departments respectively.
-● Standardized Test Plan, Test Scripts/Test Cases, Daily Status Reports, etc., documents leading to a 20%
-increase in productivity.
-● Established monthly sprint backlog items as well as performed agile meetings while updating the activities in
-Microsoft TFS in an optimized manner which resulted in saving 10 hours of monthly lost time.
-RW Capital, San Diego, CA May 2008 - Dec 2014
-QA Manual Tester (Nov 2011 - Dec 2014)
-● Optimized the build process by increasing the system's quality level and reducing 45 of defects found.
-● Established proper team communication that identified, triaged, reproduced, & fixed found issues using JIRA
-increasing the overall workflow by 25%.
-Junior QA Manual Tester (May 2010 - Oct 2011)
-● Wrote & optimized test scripts in towels which led to a  reduction in the overall testing hours.
-● Created traceability matrix to fill in the gap between requirements and tests covered contributing to the 10%
-increase in test case count.
-EDUCATION
-Resume Worded University, San Francisco, CA May 2010
-BSc. Computer Science
-SKILLS
-● Test Automation
-Frameworks
-● Java
-● Javascript
-
-● Microsoft TFS
-● CharlesProxy
-● SQL/NoSQL
-● Selenium/Webdriver
-
-● TestNG
-● JIRA
-● Jenkins
-● Agile
-
-● Source Versioning
-● JUnit
-● Scrum"""
+text2="""Zaid Hasan Machine Learning bengaluru, India • • zaidhasan@resumeworded.com  linkedin.com/in/zaid-hasan EXPERIENCE Google June 2020 - Present Senior Machine Learning Engineer Engineered a fast, adaptable machine learning model that improved the efficiency of Google's search accuracy by 30%. Led a team of five to design and implement a predictive model using deep learning algorithms, increasing the speed of data analysis by 40%. Collaborated with cross-functional teams to improve the UI of Google's search engine, enhancing user experience by 20%. Developed a robust data pipeline that reduced manual data extraction time by 50%. Pioneered a novel neural network architecture that boosted the scalability of Google's recommendation system. Amazon January 2017 - May 2020 Machine Learning Engineer Designed and implemented machine learning systems that increased the accuracy of Amazon's product recommendation feature by 60%. Created data models that optimized the company's warehouse management system, increasing efficiency by 25%. Initiative led to increased customer satisfaction by 15% due to accurate and relevant product recommendations. Resume Worded February 2014 - December 2016 Data Scientist Developed analytical models that helped in predicting user behavior, leading to a 45% increase in user engagement. Designed an innovative algorithm that automated the resume review process, increasing productivity by 30%. Led predictive analytics projects that increased website traffic by 20%. Coached.com January 2011 - January 2014 Data Analyst Implemented Python scripts that automated data cleaning, saving 10 hours per week. Visualized data using Tableau, providing valuable insights to influence business decisions. EDUCATION Resume Worded Academic Center May 2020 Master of Science in Machine Learning and Artificial Intelligence Final project involved developing a real-time anomaly detection system using deep learning Resume Worded University June 2016 Bachelor of Science in Data Science Part-time Summa Cum Laude graduate SKILLS Machine Learning: Deep Learning, Neural Networks, Decision Trees, Ensemble Methods, Gradient Boosting, Support Vector Machines Programming & Scripting: Python (Pandas, NumPy, Scikit-learn, TensorFlow, Keras), R, SQL, Java, Scala, Bash Big Data Technologies: Hadoop, Spark, Kafka, Hive, Presto, Airflow Tools & Platforms: AWS (SageMaker, Lambda, EC2), Azure ML, Docker, Kubernetes, Jupyter OTHER Certifications: AWS Certified Machine Learning – Specialty (2021), Tensorflow Developer Certificate (2020) Publications: Contributing author in ‘Journal of Machine Learning Research’, ‘AI Magazine’ Speaking Engagements: Keynote speaker at MLConf 2021, Panelist at NeurIPS Industry Track 2019 Patents & Projects: Co-inventor on 3 patents related to scalable machine learning algorithms, Lead developer for Amazon's recommendation engine project (2018-2020)
+"""
 
 job_desc="""AI/ML Engineer
 
@@ -133,6 +81,18 @@ Innovative Tech Solutions is an equal opportunity employer. We celebrate diversi
 
 """
 
+
+def extract_name_from_resume(text):
+    name = None
+
+    # Use regex pattern to find a potential name
+    pattern = r"(\b[A-Z][a-z]+\b)\s(\b[A-Z][a-z]+\b)"
+    match = re.search(pattern, text)
+    if match:
+        name = match.group()
+
+    return name
+
 def extract_email_phone(text):
     email_regex = r'[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}'
     phone_regex = r'\d{3}-\d{3}-\d{4}|\(\d{3}\)\s\d{3}-\d{4}|\d{3}\.\d{3}\.\d{4}|\d{3}\s\d{3}\s\d{4}|\d{10}|\d{5}\s\d{5}|\+\d{2}\s\d{10}|\+\d{2}\s\d{5}\s\d{5}'
@@ -169,8 +129,7 @@ def extract_skills_from_resume(text, skills_list):
 
 def extract_education_from_resume(text):
     education = []
-
-    pattern = r"(?i)(?:(?:Bachelor|B\.S\.|B\.A\.|Master|M\.S\.|M\.A\.|Ph\.D\.)\s(?:[A-Za-z]+\s)*[A-Za-z]+)"
+    pattern = r"(?i)(?:(?:Bachelor|B\.S\.|B\.A\.|Master|M\.S\.|M\.A\.|Ph\.D\.)\s(?:[A-Za-z]+\s)*[A-Za-z]+)|(?:Bsc|\bB\.\w+|\bM\.\w+|\bPh\.D\.\w+|\bBachelor(?:'s)?|\bMaster(?:'s)?|\bPh\.D)\s(?:\w+\s)*\w+"
     matches = re.findall(pattern, text)
     for match in matches:
         education.append(match.strip())
@@ -178,25 +137,31 @@ def extract_education_from_resume(text):
     return education
 
 def extract_college_name(text):
-    lines = text.split('\n')
-    college_pattern = r"(?i).*college.*"
-    for line in lines:
-        if re.match(college_pattern, line):
-            return line.strip()
+    college_pattern = r'(?i)(?:[A-Z][a-z]* College of Engineering|[A-Z][a-z]* Educational Institute|University of [A-Z][a-z]*|Ecole [A-Z][a-z]*|Indian Institute Of Technology-[A-Z][a-z]|National Institute Of Technology-[A-Z][a-z])'
+
+  # Use re.findall to find all matches in the entire text
+    matches = re.findall(college_pattern, text)
+
+  # Return the first match if found, otherwise return None
+    return matches[0].strip() if matches else None
     
-    return None
 
-# emails, phones,urls,linkedIn_url = extract_email_phone(text)
-# print(emails)  
-# print(phones)
-# print(urls)
-# print(linkedIn_url)
+emails, phones,urls,linkedIn_url = extract_email_phone(text)
+print(emails)  
+print(phones)
+print(urls)
+print(linkedIn_url)
 
-# edu_details=extract_education_from_resume(text)
-# print(edu_details) # get education details
+name=extract_name_from_resume(text)
+print(name)
 
-# college_name=extract_college_name(text)
-# print(college_name) # get college name
+edu_details=extract_education_from_resume(text)
+print(edu_details) # get education details
+
+college_name=extract_college_name(text)
+print(college_name) # get college name
+
+
 
 # skills_list=['Java', 'Python', 'C++', 'Kotlin', 'JavaScript','machine learning', 'Tensorflow', 'Pytorch', 'OpenCV','Artificial Intelligence (AI)'
 # 'Communication','Computer Science','Data Science','Deep Learning''Web Development','Code Review','Natural Language Processing''Problem Solving',
@@ -254,4 +219,4 @@ def preprocess(text):
 
 job_desc_processed = preprocess(job_desc)
 job_desc_skills = set(job_desc_processed.split())
-print(job_desc_skills)
+# print(job_desc_skills)
